@@ -1,6 +1,8 @@
 # Final-Project_2
 The Yandex Practicum course Project, a course on Data Science, the final project for Module 2 on Yandex Afisha.
-Анализ лояльности пользователей сервиса «Яндекс Афиша»
+
+**Анализ лояльности пользователей сервиса «Яндекс Афиша»**
+
 # 1. Вступление
 ## Цель и задачи проекта
 
@@ -111,20 +113,23 @@ DB_NAME=data-analyst-afisha
 
 # 5. Project structure
 
-Final_project2/
-│
-├── data/
-│   ├── Source_data.sql        # SQL-запрос (не отслеживается Git)
-│   └── scheme.jpg             # схема БД (не отслеживается Git)
-│
-├── notebooks/
-│   └── Final_Project_2_151225.ipynb
-│
-├── requirements.txt
-├── environment.yml            # не отслеживается Git
-├── .env                       # не отслеживается Git
-├── .gitignore
-└── README.md
+***Final_project2/***
+
+*data/*
+
+  - Source_data.sql # SQL-запрос (не отслеживается Git)
+  - sheme.jpg # схема БД (не отслеживается Git)
+
+*notebooks/*
+
+  - Final_Project_2_151225.ipynb
+
+.ipynb_checkpoints  # не отслеживается Git
+environment.yml  # не отслеживается Git
+requirements.txt
+.env  # не отслеживается Git
+.gitignore
+README.md
 
 Файлы и папки, добавленные в .gitignore, не входят в репозиторий и используются только локально.
 
