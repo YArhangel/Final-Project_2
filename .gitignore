@@ -1,8 +1,26 @@
-# Игнорировать файл с именем .env
+# Игнорировать файлы окружений
 .env
+.env
+.venv/
+env/
+
 # Игнорировать файлы с расширением .jpg
 *.jpg
+
 # Игнорировать файлы с расширением .yml
 *.yml
+
 # Игнорировать файлы с расширением .sql
 *.sql
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+
+# OS
+.DS_Store
+Thumbs.db
