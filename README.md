@@ -1,7 +1,7 @@
 # Final-Project_2
 The Yandex Practicum course Project, a course on Data Science, the final project for Module 2 on Yandex Afisha.
 
-**Анализ лояльности пользователей сервиса «Яндекс Афиша»**
+# Анализ лояльности пользователей сервиса «Яндекс Афиша»
 
 # 1. Вступление
 ## Цель и задачи проекта
@@ -35,6 +35,7 @@ EDA и проверка гипотез - Корреляционный анали
 
 ## Контакты для обратной связи
 Автор проекта: Юлия Дьяченко
+
 Для обратной связи: мессенджер Пачка @y.arhangel
 
 # 2. Installation
@@ -46,8 +47,8 @@ git clone https://github.com/YArhangel/Final-Project_2
 
 Рекомендуется использовать виртуальное окружение.
 
-python -m venv venv
-source venv/bin/activate        # Linux / macOS
+python -m venv venv\
+source venv/bin/activate        # Linux / macOS\
 venv\Scripts\activate           # Windows
 
 
@@ -57,18 +58,18 @@ pip install -r requirements.txt
 
 **Переменные окружения**
 
-Для подключения к базе данных необходимо создать файл .env
+Для подключения к базе данных необходимо создать файл .env\
 (файл не хранится в репозитории, добавлен в .gitignore):
 
-DB_USER=...
-DB_PASSWORD=...
-DB_HOST=...
-DB_PORT=6432
+DB_USER=...\
+DB_PASSWORD=...\
+DB_HOST=...\
+DB_PORT=6432\
 DB_NAME=data-analyst-afisha
 
 **DVC**
 
-В данном проекте DVC не используется, так как данные загружаются напрямую из базы данных PostgreSQL.
+В данном проекте DVC не используется, так как данные загружаются напрямую из базы данных PostgreSQL.\
 Установка и настройка DVC не требуются.
 
 # 3. Running in your environment
@@ -125,11 +126,11 @@ DB_NAME=data-analyst-afisha
 
   - Final_Project_2_151225.ipynb
 
-.ipynb_checkpoints  # не отслеживается Git
-environment.yml  # не отслеживается Git
-requirements.txt
-.env  # не отслеживается Git
-.gitignore
+.ipynb_checkpoints  # не отслеживается Git\
+environment.yml  # не отслеживается Git\
+requirements.txt\
+.env  # не отслеживается Git\
+.gitignore\
 README.md
 
 Файлы и папки, добавленные в .gitignore, не входят в репозиторий и используются только локально.
